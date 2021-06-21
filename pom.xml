@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.221.32.22:9980/SaiTestApp/repository/SaiTestRelease/</url>
+	      <url>http://54.209.23.138:9980/SaiTestApp/repository/SaiTestRelease/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.221.32.22:9980/SaiTestApp/repository/SaiTest-snapshot/</url>
+	      <url>http://54.209.23.138:9980/SaiTestApp/repository/SaiTest-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
