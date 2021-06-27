@@ -1,3 +1,3 @@
 # maven-web-application
-Deploys Maven Web Application using Jenkins and CodeDeploy!
+Deploys Maven Web Application using Jenkins and CodeDeploy!  
 
