@@ -1,10 +1,12 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /tmp
+  - source: /target/maven-web-application.war
+    destination: /usr/share/tomcat/webapps/maven-web-application.war
 hooks:
   BeforeInstall:
+    - location: scripts/install_and_configure_apache_tomcat.sh
+      runas: root
   AfterInstall:
   ApplicationStart:
   ApplicationStop:
